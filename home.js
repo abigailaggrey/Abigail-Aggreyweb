@@ -28,4 +28,8 @@ function showSlides(n) {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-    
+    // Toggle 
+    var Menulist=document.querySelector('.nav');
+    function MyClick() {
+        Menulist.classList.toggle('MenuToggle');
+    }
